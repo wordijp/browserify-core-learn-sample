@@ -1,0 +1,6 @@
+node_modules/*
+!node_modules/brainf_ckify
+!node_modules/file-count
+
+dist/bundle.js
+dist/bundle-no-commonjs.js

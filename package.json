@@ -1,0 +1,25 @@
+{
+  "name": "browserify-core-learn-sample",
+  "version": "1.0.0",
+  "description": "core process for browserify, transform plugin, and plugin",
+  "main": "src/hello_world.bf",
+  "scripts": {
+    "build": "node_modules/.bin/browserify -t brainf_ckify -p file-count -o dist/bundle.js .",
+    "node": "node core-build.js"
+  },
+  "author": "wordijp",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "events": "^1.1.1",
+    "inherits": "^2.0.3",
+    "labeled-stream-splicer": "^2.0.0",
+    "read-only-stream": "^2.0.0",
+    "readable-stream": "^2.1.5",
+    "resolve": "^1.1.7",
+    "through": "^2.3.8",
+    "through2": "^2.0.1",
+    "vinyl-fs": "^2.4.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
