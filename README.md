@@ -3,7 +3,7 @@ browserify-minimal-sample
 
 # このプロジェクトについて
 
-これは**Qiita記事**用の、Browserifyの内部処理の理解を深め、transformモジュール、plugin作成の手助けとなる事を目的とした学習用プロジェクトです。  
+これは[Qiita記事](http://qiita.com/wordijp/items/f8949a7d122fd4610f3c)用の、Browserifyの内部処理の理解を深め、transformモジュール、plugin作成の手助けとなる事を目的とした学習用プロジェクトです。  
 詳しい解説はQiita記事の方をお読みください。
 
 
